@@ -1,9 +1,15 @@
 # recod_shell_ufrj
 
-This repository presents the LithoVision solution for Carbonate Rock Classification in the Brazilian Pre-Salt. 
-An end-to-end solution based on a hybrid approach. Here, we combiene a pre-trained self-supervised Tranformer called DinoV2 and an adapted Central Difference Convolutional Densenet121.
-The experiment presented in the *lithoVision.py* file shows the approach in two datasets, the first one is public dataset, and the second is private, but we can release by requests.
+This repository presents LithoVision, an end-to-end solution for Carbonate Rock Classification in the Brazilian Pre-Salt. Our approach combines a pre-trained self-supervised Transformer (DinoV2) with an adapted Central Difference Convolutional DenseNet121, leveraging the strengths of both architectures.
 
-In order to execute the experiments, install the libraries in the *requirements.txt* file.
+The lithoVision.py file demonstrates the approach on a private dataset, while the provided Jupyter notebook applies the same method in a cross-validation setting using a public dataset, referred to as ODP. The ODP dataset is available at:
 
+🔗 ODP Dataset Link:
+https://drive.google.com/drive/folders/1qaZMZJ7PzjDa6iV-yegIcbajr395nnZS?usp=sharing
+
+OBS: To access the private dataset, please contact me at michaeloc9@gmail.com
+
+# Setup & Execution
+To run the experiments, install the required dependencies using:
+pip install -r requirements.txt
 
